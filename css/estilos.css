@@ -4,5 +4,47 @@ html{
     --botones: #CBD99B;
     --titulos: #F87B1B;
     --encabezados: "Contrail One", sans-serif;
-    --texto: "Inter Tight", sans-serif;
+}
+
+body {
+    background-color:var(--fondo);
+}
+
+div.beneficios {
+    height: 530px;
+    width: 1000px;
+    margin: auto;
+}
+
+img.benef {
+    height: 500px;
+}
+
+h2#beneficios {
+    color: var(--titulos);
+    text-align: center;
+    padding: 20px;
+}
+
+h5.card-title,
+p.card-text {
+  text-align: center;
+  color: var(--texto);
+  margin-bottom: 20px;
+  
+}
+
+.card {
+    border-color: var(--fondo);
+}
+
+div.row, div.border, div.col-sm {
+    border-color: var(--fondo) !important;
+    color: var(--texto) !important;
+    font: var(--encabezados) !important;
+}
+
+div.card-body {
+    background-color: var(--fondo);
+    border-color: var(--fondo);
 }
